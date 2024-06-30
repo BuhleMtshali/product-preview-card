@@ -7,14 +7,62 @@ body {
   background-color: hsl(30, 38%, 92%);
 }
 .container {
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  margin-top: 30px;
 }
 img {
-  width: 300px;
-  height: auto;
+  width: 250px;
+  height: 340px;
   object-fit: cover;
   object-position: center;
+}
+.cart {
+  width: 20px;
+  height: 20px;
+}
+.btn button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left {
+  width: 250px;
+  height: 339px;
+}
+.right {
+  background-color: white;
+  width: 250px;
+  height: 340px;
+  padding-left: 8px;
+}
+.top-text {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+}
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: var(--headings);
+  font-weight: 700;
+}
+.text {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+  font-family: var(--paragraph);
+  font-weight: 500;
+}
+.price {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: var(--headings);
+  color: hsl(158, 36%, 37%);
+  font-weight: 700;
+  font-size: 22px;
 }
