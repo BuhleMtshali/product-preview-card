@@ -14,7 +14,7 @@ body {
   margin-top: 30px;
 }
 img {
-  width: 250px;
+  width: 280px;
   height: 340px;
   object-fit: cover;
   object-position: center;
@@ -22,21 +22,34 @@ img {
 .cart {
   width: 20px;
   height: 20px;
+  color: white;
+  padding-right: 5px;
 }
 .btn button {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  padding: 8px 16px;
+  border-radius: 9px;
+  border: none;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
 }
 .left {
-  width: 250px;
-  height: 339px;
+  width: 280px;
+  height: 340px;
 }
 .right {
   background-color: white;
   width: 250px;
   height: 340px;
-  padding-left: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
 }
 .top-text {
   margin-top: 5px;
@@ -59,10 +72,21 @@ h1 {
   font-weight: 500;
 }
 .price {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   margin-top: 10px;
   font-family: var(--headings);
   color: hsl(158, 36%, 37%);
   font-weight: 700;
   font-size: 22px;
+}
+.grey-price {
+  color: hsl(228, 12%, 48%);
+  font-size: 12px;
+  text-decoration: line-through;
+}
+@media (max-width: 500px) {
+  .container {
+    display: block;
+    margin-left: 30px;
+  }
 }
