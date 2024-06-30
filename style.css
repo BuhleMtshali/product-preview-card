@@ -1,0 +1,20 @@
+:root {
+  --paragraph: "Montserrat", sans-serif;
+  --headings: "Fraunces", serif;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+.container {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
